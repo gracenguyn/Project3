@@ -6,8 +6,8 @@ library(shiny)
 library(ggplot2)
 turbines <- read.csv("Project1_wind_turbines.csv")
 
-#runGitHub("Project3", "gracenguyn")
-runUrl("https://github.com/gracenguyn/Project3/blob/main/Project3.zip")
+runGitHub("Project3", "gracenguyn")
+#runUrl("https://github.com/gracenguyn/Project3/blob/main/Project3.zip")
 
 ui <- fluidPage(
     
